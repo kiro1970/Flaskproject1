@@ -1,0 +1,10 @@
+{% include 'components/header.html' %}
+
+
+
+<div style="display:flex;flex-wrap:wrap;width:100%;justify-content: center;">
+{% for i in range(3) %}
+    <img  src="{{url_for('static', filename='charmander6.png')}}"/>
+{% endfor %}
+</div>
+<h1>Are you ready for a Pokemon battle?</h1>
