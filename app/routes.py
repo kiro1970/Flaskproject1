@@ -3,7 +3,7 @@ from flask import render_template
 
 @app.route('/')
 def home():
-    return render_template('index.html', title="PokeAPI Project")
+    return render_template('index.html', title="PokeAPI Battler!")
 
 @app.route('/howitworks')
 def about():
